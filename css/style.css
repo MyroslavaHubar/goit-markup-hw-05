@@ -654,13 +654,17 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-form-wrapper-textarea {
+  margin-bottom: 16px;
+}
+
 .modal-form-wrapper-label {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .modal-form-input {
@@ -705,6 +709,7 @@ img {
   color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
+  margin: 0;
   outline: transparent;
   background: transparent;
   resize: none;
