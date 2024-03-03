@@ -713,3 +713,35 @@ img {
   outline: transparent;
   border-color: #4d5ae5;
 }
+
+.modal-form-chekbox-label {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.privacy-police-link {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+
+.modal-form-our-chekbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  fill: transparent;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  cursor: pointer;
+}
+
+.modal-form-privacy-checkbox:checked
+  + .modal-form-chekbox-label
+  .modal-form-our-chekbox {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+}

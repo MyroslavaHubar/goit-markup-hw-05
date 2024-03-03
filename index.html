@@ -603,15 +603,20 @@
           <div class="modal-form-checkbox">
             <input
               type="checkbox"
-              class="modal-form-privacy-checkbox"
+              class="modal-form-privacy-checkbox visually-hidden"
               name="privacy-police"
               id="privacy-police"
               required
             />
-            <label for="privacy-police" class="modal-form-chekbox-label"
-              >I accept the terms and conditions of the Privacy Policy</label>
-              <a href=""></a>
-            </svg>
+            <label for="privacy-police" class="modal-form-chekbox-label">
+              <span class="modal-form-our-chekbox">
+                <svg class="modal-form-our-chekbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-tick"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-police-link" href="">Privacy Policy</a>
+            </label>
           </div>
         </form>
       </div>
