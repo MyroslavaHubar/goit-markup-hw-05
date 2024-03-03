@@ -714,6 +714,9 @@ img {
   border-color: #4d5ae5;
 }
 
+.modal-form-checkbox {
+  margin-bottom: 24px;
+}
 .modal-form-chekbox-label {
   font-size: 12px;
   line-height: 1.16667;
@@ -744,4 +747,10 @@ img {
   .modal-form-our-chekbox {
   background-color: #404bbf;
   fill: #f4f4fd;
+}
+
+.modal-form-privacy-checkbox:focus
+  + .modal-form-chekbox-label
+  .modal-form-our-chekbox {
+  outline: 1px solid rgba(0, 0, 255, 0.5);
 }
